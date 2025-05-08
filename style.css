@@ -135,7 +135,7 @@ p{
     width: 80%;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1440px) {
+@media screen and (min-width: 768px) {
     .container {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
@@ -198,7 +198,6 @@ p{
         flex-direction: column;
         position: relative;
         overflow: hidden;
-        width: 150px;
     }
     .card4 h2 {
         text-align: start;
@@ -242,7 +241,7 @@ p{
         flex-direction: row;
         height: fit-content;
         padding: 25px;
-        width: 385px;
+        
 
     }
     .card5 img {
